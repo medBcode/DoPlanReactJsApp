@@ -1,0 +1,30 @@
+.rangeLevel{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Remove default styles */
+#completionLevel {
+    -webkit-appearance: none;
+    appearance: unset;
+    width: 45%;
+    height: 10px; 
+    border-radius:10px;
+    background: #FCFCFC;  
+    outline: none;
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.25);  
+  }
+  
+  #completionLevel::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.25);  
+    appearance: none;
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%; 
+    background: #8c8c8c;
+    cursor: pointer; 
+  }
+
